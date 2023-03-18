@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    </head>
+    <body style="background-color: black;padding-top: 20px;">
+        <table style="width:50%;background-color: fuchsia;padding:30px;margin: auto;text-align: center;">
+            <tr>
+                <td style="padding:20px">
+                    <h2>Software Request Form</h2>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;text-align: left;">
+                    <form>
+                        <label>Name</label><br>
+                        <input type="text" style="width:70%;border-radius: 5px;border:0;padding:5px;background-color: antiquewhite;" name="na">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;text-align: left;">
+                    <form>
+                        <label>Employee id</label><br>
+                        <input type="text" style="width:70%;border-radius: 5px;border:0;background-color: antiquewhite;padding:5px;" name="na">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;text-align: left;">
+                    <form>
+                        <label>Email Id</label><br>
+                        <input type="email" style="width:70%;border-radius: 5px;border:0;background-color: antiquewhite;padding:5px;" name="na">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;text-align: left;">
+                    <form>
+                        <label>Phone Number</label><br>
+                        <input type="text" style="width:70%;border-radius: 5px;border:0;padding:5px;background-color: antiquewhite;" name="na">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;text-align: left;">
+                    <label>Which Software do you required?</label><br>
+                    <input type="radio" name="nam">Software A<br>
+                    <input type="radio" name="nam">Software B<br>
+                    <input type="radio" name="nam">Software C<br>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;text-align: left;">
+                    <label>How urgently do you need it?</label><br>
+                    <input type="radio" name="nam">ASAP<br>
+                    <input type="radio" name="nam">Within 2 weeks<br>
+                    <input type="radio" name="nam">Within 1 month<br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" style="background-color: antiquewhite;color: black;border-radius: 5px;border:0" name="sub">
+                </td>
+            </tr>
+        </table><br>
+        <table style="width:50%;background-color: rgb(156, 209, 56);padding:30px;margin: auto;text-align: left;">
+            <tr>
+                <td colspan="2"  style="padding:20px">
+                    <h2 style="color:red">Software Request Form</h2>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left:20px">
+                    <h4>Full Name *</h4><br>
+                </td>
+                <td>
+                    <input type="text"  style="width:45%;height:30px;background-color:rgb(210, 220, 255);border-radius:4px" name="first" placeholder="First"  >
+                    <input type="text"  style="width:45%;height:30px;background-color:rgb(210, 220, 255);border-radius:4px" name="last" placeholder="Last" >
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left:20px">
+                    <h4>When  was the project completed</h4><br>
+                </td>
+                <td>
+                    <input type="date"  style="width:55%;height:30px;background-color:rgb(210, 220, 255);border-radius:4px" name="age"   >
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left:20px">
+                    <h4>Comments about project</h4><br>
+                </td>
+                <td>
+                    <textarea style="width:92%;background-color:rgb(210, 220, 255);border-radius:4px" name="content" rows="4" cols="50"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left:20px">
+                    <h4 >Are you satisfied with the project?</h4><br>
+                </td>
+                <td>
+                    <form>
+                        <input type="checkbox"  name="yes" value="ref" >
+                        yes
+                     </form>
+                     <form>
+                        <input type="checkbox"  name="no" value="ref2" >
+                        no
+                     </form>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left:20px">
+                    <h4>Feedback</h4><br>
+                </td>
+                <td>
+                    <input type="text"  style="width:45%;height:30px;background-color:rgb(210, 220, 255);border-radius:4px" name="refer"   >
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"  style="padding:10px">
+                    <form>
+                        <input type="submit"  style="width:15%;color:white;height:30px;background-color:rgb(10, 98, 42);border-radius:4px;border-color:brown" name="submit"  >
+                      </form>
+                </td>
+            </tr>
+        </table><br>
+
+        <table  style="width:50%;background-color: rgb(30, 169, 204);padding:30px;margin: auto;text-align: center;">
+            <tr>
+                <td colspan="2"  style="padding:20px">
+                    <h2>Patient Progress Tracking</h2>
+                </td>
+            </tr>
+            <tr>
+                <td width="50%" style="padding:20px">
+                <form>
+                    
+                    <label>First name*</label><br>
+                    <input type="text"  style="width:50%;height:30px;background-color:rgb(210, 220, 255);border-radius:4px" name="fname"  ></form>
+                </td>
+                <td width="50%" style="padding:20px">
+                    <form>
+                        <label >Family name*</label><br>
+                    <input type="text"  style="width:50%;height:30px;background-color:rgb(210, 220, 255);border-radius:4px" name="famname"  > </form>
+                </td>
+            
+            </tr>
+            <tr>
+                <td width="50%" style="padding:20px">
+                    <form>
+                        <label >Recovering status of the patient</label>
+                    </form>
+                </td>
+                <td width="50%" style="padding:20px">
+                    <input type="range"  style="width:50%;height:30px;background-color:rgb(210, 220, 255);border-radius:4px" name="range"  >
+                </td>
+            </tr>
+            <tr>
+                <td width="50%" style="padding:20px">
+                    <form>
+                        <label >Can patient be discharged this week?</label>
+                    </form>
+                </td>
+                <td width="50%" style="padding:20px">
+                    <input type="radio"  style="background-color:rgb(210, 220, 255);border-radius:4px" name="rad"  >Yes<br>
+                    <input type="radio"  style="background-color:rgb(210, 220, 255);border-radius:4px" name="rad"  >No<br>
+                </td>
+            </tr>
+            <tr>
+                <td width="50%" style="padding:20px">
+                    <form>
+                        <label >Patient's Condition</label>
+                    </form>
+                </td>
+                <td>
+                    <textarea name="r" style="background-color:rgb(210, 220, 255);border-radius:4px" row="15" col="15"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"  style="padding:10px">
+                    <form>
+                        <input type="submit"  style="width:15%;color:white;height:30px;background-color:rgb(31, 6, 157);border-radius:4px;border-color:brown" name="submit"  >
+                    </form>
+                </td>
+            </tr>
+        </table><br>
+        <table style="width:50%;background-color: rgb(239, 90, 162);padding:30px;margin: auto;text-align: center;"> 
+            <tr>
+                <td colspan="2"  style="padding:20px">
+                    <h2>Parlour Form</h2>
+                    <p>Book an appointment1...</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;text-align: left;">
+                    <form>
+                        <label>Name</label><br>
+                        <input type="text" style="width:70%;border-radius: 5px;border:0;padding:5px;background-color: antiquewhite;" name="na">
+                    </form>
+                </td>
+            </tr><tr>
+                <td style="padding: 20px;text-align: left;">
+                    <form>
+                        <label>When are you coming to us?</label><br>
+                        <input type="date" style="width:70%;border-radius: 5px;border:0;padding:5px;background-color: antiquewhite;" name="na">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;text-align: left;">
+                    <form>
+                        <label>Already a member?</label><br>
+                        <input type="radio" style="border-radius: 5px;border:0;padding:5px;background-color: antiquewhite;" name="na">Yes
+                        <input type="radio" style="border-radius: 5px;border:0;padding:5px;background-color: antiquewhite;" name="na">No
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;text-align: left;">
+                    <label>Which services you need</label><br>
+                    <input type="checkbox" name="nam">Software A<br>
+                    <input type="checkbox" name="nam">Software B<br>
+                    <input type="checkbox" name="nam">Software C<br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>Any Allergies with your skin and explain about your skin type</h4>
+                    <textarea name="par" style="border-radius: 5px;border:0;padding:5px;background-color: antiquewhite;" row="10" col="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right"  style="padding:10px">
+                    <form>
+                        <input type="submit"  style="width:15%;color:white;height:30px;background-color:rgb(215, 93, 93);border-radius:4px;border-color:brown" name="submit"  >
+                      </form>
+                </td>
+            </tr>
+        </table><br>
+        <table style="width:50%;background-color: rgb(216, 138, 2);padding:30px;margin: auto;text-align: center;">
+            <tr>
+                <td style="padding:20px">
+                    <h2>Music Artist Promo Form</h2>
+                    <p>Get free tips to create a business and life you love</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;text-align: left;">
+                    <form>
+                        <label> Artist Name</label><br>
+                        <input type="text" style="width:70%;border-radius: 5px;border:0;padding:5px;background-color: rgba(250, 235, 215,0.5);" name="na">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;text-align: left;">
+                    <form>
+                        <label>Instragram id</label><br>
+                        <input type="text" style="width:70%;border-radius: 5px;border:0;background-color: rgba(250, 235, 215,0.5);padding:5px;" name="na">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;text-align: left;">
+                    <form>
+                        <label>Email Id</label><br>
+                        <input type="email" style="width:70%;border-radius: 5px;border:0;background-color: rgba(250, 235, 215,0.5);padding:5px;" name="na">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;text-align: left;">
+                    <form>
+                        <label>Phone Number</label><br>
+                        <input type="text" style="width:70%;border-radius: 5px;border:0;padding:5px;background-color: rgba(250, 235, 215,0.5);" name="na">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;text-align: left;">
+                    <form>
+                        <label>Song title</label><br>
+                        <input type="text" style="width:70%;border-radius: 5px;border:0;padding:5px;background-color: rgba(250, 235, 215,0.5);" name="na">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;text-align: left;">
+                    <form>
+                        <label>Done any stage Performance?</label><br>
+                        <input type="radio"  name="na">Yes
+                        <input type="radio"  name="na">No
+
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"  style="padding:10px">
+                    <form>
+                        <input type="submit"  style="width:15%;color:white;height:30px;background-color:rgb(224, 170, 10);border-radius:4px;border-color:brown" name="submit"  >
+                      </form>
+                </td>
+        </table>
+        
+    </body>
+</html>

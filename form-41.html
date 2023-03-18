@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <style>
+            .con{
+                width:50%;background-color: brown;text-align: center;margin:auto;color: aliceblue;
+            }
+            .tab{
+                width:50%;background-color: aquamarine;padding: 40px;margin:auto
+            }
+        </style>
+    </head>
+    <body style="padding:50px">
+        <div class="con">
+            <div class="header p-5">
+                <h1>Eye examination report</h1>
+                <p>This form must be filled by a optometrist or psychian who conducted the eye examination on the patient</p>
+                <form>
+                    <div class="one p-3">
+                        <label>Patient's Name*</label>
+                        <input type="text" name="text" >
+                    </div>
+                   <div class="two p-3">
+                        <label>Date Of Exam*</label>
+                        <input type="date" name="text" >
+                    </div>
+                    --------------------------------------------------------------------------------------------
+                    <div class="three p-3">
+                        <label>Case histroy</label><br>
+                        <input type="radio" value="Ocular Histroy">Ocular Histroy<br>
+                        <input type="radio" value="Medical Histroy">Medical Histroy<br>
+                        <input type="radio" value="Drug Histroy">Drug Histroy<br>
+                    </div>
+                    <div>
+                        <label>was refraction performed in cyclogenic plant?</label><br>
+                        <input type="radio" name="n">Yes
+                        <input type="radio" name="n">No
+                    </div>
+                    <div class="four p-3">
+                        <form>
+                            <input type="submit" name="sub">
+                        </form>
+                    </div>
+                </form>
+            </div>
+            
+        </div><br>
+
+        <div class="tab">
+            <div class="main text-center">
+                <h2>Cruise Booking</h2>
+                <p style="color:red">Deposit or additional payment</p>
+            </div>
+            <form>
+                <div>
+                    <label>Make a Deposit Payment</label><br>
+                    <input type="text" name="text">
+                </div>
+                <h3 style="text-align: center;">Travel Insurance</h3>
+                <div align="center">
+                    <label>Purchase Insurance</label><br>
+                    <input type="radio" name="rad">Yes<br>
+                    <input type="radio" name="rad">No<br>
+                </div>
+                <table align="center">
+                    <tr>
+                        <td>
+                            <p>Name</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50%">
+                            <form>
+                        
+                                <input type="text" name="fn" placeholder="Firstname">
+                            </form><br>
+                        </td>
+                        <td>
+                            <form>
+                              
+                                <input type="text" name="ln" placeholder="lastname">
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Pickup Address</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <form>
+                                <input type="text" name="add" placeholder="Adress line 1">
+                            </form><br>
+                        </td>
+                        <td>
+                            <form>
+                                <input type="text" name="add2" placeholder="Adress line 2">
+                            </form><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <form>
+                                <input type="text" name="city" placeholder="City">
+                            </form><br>
+                        </td>
+                        <td>
+                            <form>
+                                <input type="text" name="state" placeholder="State">
+                            </form><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <form>
+                                <input type="text" name="pc" placeholder="Pincode">
+                            </form><br>
+                        </td>
+                        <td>
+                            <form>
+                                <input type="text" name="c" placeholder="Country">
+                            </form><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Destination Address</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <form>
+                                <input type="text" name="add" placeholder="Adress line 1">
+                            </form><br>
+                        </td>
+                        <td>
+                            <form>
+                                <input type="text" name="add2" placeholder="Adress line 2">
+                            </form><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <form>
+                                <input type="text" name="city" placeholder="City">
+                            </form><br>
+                        </td>
+                        <td>
+                            <form>
+                                <input type="text" name="state" placeholder="State">
+                            </form><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <form>
+                                <input type="text" name="pc" placeholder="Pincode">
+                            </form><br>
+                        </td>
+                        <td>
+                            <form>
+                                <input type="text" name="c" placeholder="Country">
+                            </form><br>
+                        </td>
+                    </tr>
+                </table>
+                <div align="center">
+                    <input type="submit" style="border=0;background-color: aquamarine; border-radius: 5px;border-color: aqua;text-align: center;">
+                </div>
+            </form>
+        </div><br>
+        <table style="width:50%;background-color: darkslateblue;color:whitesmoke;margin: auto;">
+            <tr>
+                <td style="padding:20px;width:70%" >
+                   <h1 align="center">Leave Application</h1>
+                </td>
+            </tr>
+              
+            <tr>
+                <td style="padding:20px">
+                    <label>Full Name*</label>
+                </td>
+                <td style="padding:20px">
+                    <input type="text" name="text" placeholder="First">
+                    <input type="text" name="text" placeholder="Last">
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:20px">
+                    
+                    <label>When are you taking leave?</label>
+                </td>
+                <td style="padding:20px">
+                    <input type="date" name="date">
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:20px">
+                    <label>Commands to team</label>
+                </td>
+                <td style="padding:20px">
+                    
+                    <textarea name="msg" row="10" col="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:20px">
+                    <label>Are you taking leave more than two days?</label>
+                </td>
+                <td style="padding:20px">
+                    <input type="radio" name="r">Yes
+                    <input type="radio" name="r">No
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:20px">
+                    <label>Reason for applying Leave</label>
+                </td>
+                <td style="padding:20px">
+                    <textarea name="tex" col="10" row="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;margin: auto;">
+                    <input type="submit" name="sub">
+                </td>
+            </tr>
+        </table><br>
+        <table style="text-align: center;margin: auto;background-color: cadetblue;color: :black;width:50%">
+            <tr>
+                <td colspan="2" style="padding: 20px;">
+                    <h2>Complaints</h2>
+                    <p style="color:white">Help us improve our service</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:20px">
+                    <label>Full Name*</label>
+                </td>
+                <td style="padding:20px">
+                    <input type="text" name="text" placeholder="First">
+                    <input type="text" name="text" placeholder="Last">
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:20px">
+                    <label>Mail*</label>
+                </td>
+                <td style="padding:20px">
+                    <input type="mail" name="text" placeholder="123@gmail.com">
+                  
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:20px">
+                    <label>Phone Number</label>
+                </td>
+                <td style="padding:20px">
+                    <input type="text" name="text" placeholder="123456789">
+                 
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:20px">
+                    <label>Address</label>
+                </td>
+                <td style="padding:20px">
+                    <input type="text" name="text">
+                 
+                </td>
+
+            </tr>
+            <tr>
+                <td style="padding:20px">
+                    <label>Where did we go wrong?</label>
+                </td>
+                <td style="padding:20px">
+                    <textarea name="nam" cols="0" rows="5"></textarea>
+                 
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;margin: auto;">
+                    <input type="submit">
+                </td>
+            </tr>
+        </table><br>
+        <table bgcolor="purple" style="width:50%;padding: 30px;color:aliceblue" align="center">
+            <tr>
+                <td align="center">
+                    <h2>Product Enquiry</h2>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:20px">
+                    <form>
+                        <label>
+                            YOUR NAME*
+                        </label>
+                        <input type="text" style="background-color: #4b6b6cba ;" name="name">
+                    </form>
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:20px">
+                    <form>
+                        <label>
+                            CONTACT NUMBER*
+                        </label>
+                        <input type="text" style="background-color: #4b6b6cba"name="con">
+                    </form>
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:20px">
+                    <form>
+                        <label>
+                           BUSINESS E-MAIL*
+                        </label>
+                        <input type="email" style="background-color: #4b6b6cba" name="mail">
+                    </form>
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:20px">
+                    <form>
+                        <label>
+                           PHONE NUMBER
+                        </label>
+                        <input type="text" style="background-color: #4b6b6cba ;" name="name">
+                    </form>
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:20px">
+                    <form>
+                        <label>
+                         DESCRIBE A PLAN 
+                        </label>
+                        <textarea style="background-color: #4b6b6cba ;" name="name" row="5" col="5"></textarea>
+                    </form>
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <button type="button">Submit</button>
+                </td>
+                <hr>
+            </tr>
+        </table>
+       
+        
+        
+    </body>
+</html>
